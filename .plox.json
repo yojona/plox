@@ -1,0 +1,8 @@
+{
+  "name": "service name",
+  "url": "",
+  "ports": [{
+    "from": 80,
+    "to": 80
+  }]
+}
