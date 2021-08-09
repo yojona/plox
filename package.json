@@ -11,6 +11,8 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
+    "@types/node-fetch": "^2.5.12",
+    "node-fetch": "^2.6.1",
     "tslib": "^1"
   },
   "devDependencies": {

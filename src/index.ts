@@ -16,7 +16,7 @@ class Plox extends Command {
     const {args, flags} = this.parse(Plox)
 
     switch (args['action']) {
-      case 'deploy': return await deploy(flags);
+      case 'deploy': return await deploy(this, flags);
       default: this.log(outputs.invalidCommand(args['action']))
     }
   }
